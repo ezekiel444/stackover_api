@@ -59,7 +59,7 @@ const onListening = () => {
   console.log(`Server running on ${bind}, http://localhost:${address.port}`);
 };
 
-// Listen on provided port, on all network interfaces.
+// Listen on provided port, on all network interfaces. 
 server.listen(PORT);
 server.on('error', portUtils.onError);
 server.on('listening', onListening);
